@@ -1,0 +1,23 @@
+create database project;
+use project;
+
+
+create table course(cid varchar(8),cname varchar(50),faculty varchar(20),intake int,registered int);
+
+drop table course;
+insert into course values
+("cs18601","user interface","reena",2,0),
+("it18604","android app development","raghu",10,0),
+("ch18603","water pollution","ramya",20,0),
+("se18001","maths for ai and ml","ramesh",15,0),
+("se18005","corporate finance","ram",10,0);
+
+
+select * from course;
+
+
+create table register(cid varchar(10),cname varchar(35),sname varchar(35),regno long,gender varchar(6),mailid varchar(50));
+
+select * from register;
+
+
